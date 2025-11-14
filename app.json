@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "namaz-vakitleri",
+    "slug": "namaz-vakitleri",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Namaz vakitlerini bulunduğunuz yere göre hesaplamak için konumunuza ihtiyacımız var."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
